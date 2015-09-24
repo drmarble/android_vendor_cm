@@ -146,7 +146,7 @@ PRODUCT_PACKAGES += \
     CMWallpapers \
     CMFileManager \
     Eleven \
-    LockClock \
+#    LockClock \
 #    CMUpdater \
 #    CMAccount \
     CMHome \
