@@ -143,7 +143,7 @@ PRODUCT_PACKAGES += \
     AudioFX \
     CMWallpapers \
     CMFileManager \
-#    Eleven \
+    Eleven \
 #    LockClock \
 #    CMUpdater \
 #    CMAccount \
@@ -196,9 +196,9 @@ PRODUCT_PACKAGES += \
 
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
-#    libffmpeg_extractor \
-#    libffmpeg_omx \
-#    media_codecs_ffmpeg.xml
+    libffmpeg_extractor \
+   libffmpeg_omx \
+   media_codecs_ffmpeg.xml
 
 PRODUCT_PROPERTY_OVERRIDES += \
     media.sf.omx-plugin=libffmpeg_omx.so \
